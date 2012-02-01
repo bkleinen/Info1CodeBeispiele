@@ -7,36 +7,40 @@ public class AboutSwitch
     public static void main(String[] args){
 
         while(shouldRun){
+       
             /*
             String command = scanner.nextLine();
             switch (command){
                 case "print": 
-                print();
+                result = print();
                 break;
                 case "help": 
-                help();
+                result = help();
                 break;
                 case "bye": 
-                bye();
+                result = bye();
 
                 break;
                 default:
-                System.out.println("Command not known");
+                result = "Command not known";
             }
-            */
+            
+           System.out.println(result);
+           */
         }
 
     }
 
-    private static void print(){
-        System.out.println("PRINTING");
+    private static String print(){
+        return "PRINTING";
     }
 
-    private static void help(){
-        System.out.println("HELPING");
+    private static String help(){
+        return "HELPING";
     }
 
-    private static void bye(){
-        System.out.println("Bye!");
-        shouldRun = false;}
+    private static String bye(){
+        shouldRun = false;
+        return "Bye!";
+    }
 }

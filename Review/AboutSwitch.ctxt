@@ -2,9 +2,9 @@
 comment0.params=args
 comment0.target=void\ main(java.lang.String[])
 comment1.params=
-comment1.target=void\ print()
+comment1.target=java.lang.String\ print()
 comment2.params=
-comment2.target=void\ help()
+comment2.target=java.lang.String\ help()
 comment3.params=
-comment3.target=void\ bye()
+comment3.target=java.lang.String\ bye()
 numComments=4
