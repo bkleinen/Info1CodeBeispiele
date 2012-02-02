@@ -16,18 +16,20 @@ public class AboutAutoboxing
 
         Integer anInteger;
         anInteger = 4;
-        System.out.println("Integer: "+anInteger);
+       // System.out.println("Integer: "+anInteger);
         int i = 5;
+        hello(9);
+        hello(new Integer(5));
      
     }
 
     public static void hello(Integer x){
         System.out.println("Integer: "+x);
     }
-
-    public static void hello(long x){
-        System.out.println("long: "+x);
-    }
+/*
+    public static void hello(int x){
+        System.out.println("int: "+x);
+    }*/
     
 
 
